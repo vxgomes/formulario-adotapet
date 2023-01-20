@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F7EDE4;
+    font-family: 'Lilita One', cursive;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.catdog-container{
+    display: flex;
+    justify-content: center;
+}
+.dog-container{
+    display: flex;
+    flex-direction: column;
+}
+.dog-img{
+    width: 200px;
+}
+.cat-img{
+    width: 200px;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+}
